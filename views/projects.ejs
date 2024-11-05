@@ -13,18 +13,7 @@
        <div id="banner">
                
             <!--Creates a seperate Navagation-->
-           <nav >
-                <!--Displays a Picture labeled Emily Skinner-->
-               <img src="Profile_picture.png" alt="Emily Skinner" class="pfp">
-                <!--h4 tag used to be customized in the CSS-->
-               <h4>
-                    <!--  links to other pages. Its the Navagation Bar-->
-                    <a href="mainPage" >Home</a> |
-                    <a href="aboutMe">About Me</a> |
-                    <a href="projects">Projects</a> |
-                    <a href="contactMe">Contact Me</a> 
-                </h4>
-           </nav>    
+            <%- include('header')%>    
        </div>  
     </head>   
      <!--Body Section Starts-->  
@@ -32,7 +21,7 @@
         <!--The following is in the wrapper id-->
         <nav id="wrapper">
             <!--Displays a GIF at the top of the wrapper-->
-            <img src="Walking.gif" alt="Walking Animation" class="topban">
+            <img src="/images/Walking.gif" alt="Walking Animation" class="topban">
             <!--Creates a Class that holds links to previous works-->
             <section class="IntroProject">
                 <h2>Here's Some Projects I've Done</h2> <br> <br><br> <br>
