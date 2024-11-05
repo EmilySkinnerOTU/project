@@ -190,6 +190,10 @@ For any other questions about my code feel free to message me!
     color:white;
     width: 100px;
   }
+  .footericon{
+    color:white;
+    width: 35px;
+  }
 }
 /* For Iphones */
 @media (max-device-width: 600px) {
