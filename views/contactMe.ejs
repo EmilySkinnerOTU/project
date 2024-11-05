@@ -1,74 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-         <!--^^ Determines the Doc Type, Declare language to English, Begin Head Section, Ensure webpage is encoded in UTF-8-->
-        <meta charset="UTF-8">
-         <!--This forces values to fit on the device its being viewed on-->
-         <meta name="viewport" content="device=device-width, initial-scale=1.0">
-          <!-- Creates the title that appears in the url-->
-        <title>About Me</title>
-         <!--States what Stylesheet is being used by linking it-->
-        <link rel="stylesheet" type="text/css" href="mainStyle.css">
-         <!--Declares the following is under the Banner Section-->
-        <div id="banner">
-                
-             <!--Creates a seperate Navagation-->
-            <nav >
-                 <!--Displays a Picture labeled Emily Skinner-->
-                <img src="Profile_picture.png" alt="Emily Skinner" class="pfp">
-                 <!--h4 tag used to be customized in the CSS-->
-                <h4>
-                     <!--  links to other pages. Its the Navagation Bar-->
-                    <a href="mainPage.html" >Home</a> |
-                    <a href="aboutMe.html">About Me</a> |
-                    <a href="projects.html">Projects</a> |
-                    <a href="contactMe.html">Contact Me</a> 
+        <!--^^ Determines the Doc Type, Declare language to English, Begin Head Section, Ensure webpage is encoded in UTF-8-->
+       <meta charset="UTF-8">
+        <!--This forces values to fit on the device its being viewed on-->
+        <meta name="viewport" content="device=device-width, initial-scale=1.0">
+         <!-- Creates the title that appears in the url-->
+       <title>ContactMe</title>
+        <!--States what Stylesheet is being used by linking it-->
+       <link rel="stylesheet" type="text/css" href="mainStyle.css">
+        <!--Declares the following is under the Banner Section-->
+       <div id="banner">
+               
+            <!--Creates a seperate Navagation-->
+           <nav >
+                <!--Displays a Picture labeled Emily Skinner-->
+               <img src="Profile_picture.png" alt="Emily Skinner" class="pfp">
+                <!--h4 tag used to be customized in the CSS-->
+               <h4>
+                    <!--  links to other pages. Its the Navagation Bar-->
+                    <a href="mainPage" >Home</a> |
+                    <a href="aboutMe">About Me</a> |
+                    <a href="projects">Projects</a> |
+                    <a href="contactMe">Contact Me</a> 
                 </h4>
-
-            </nav>
-            
-        </div>
-        
-        
-        
-    </head> 
+           </nav>    
+       </div>  
+    </head>   
      <!--Body Section Starts-->  
-    <body>
-         <!--The following is in the wrapper id-->
-        <nav id="wrapper">
-            <!--Links a Video that preloads and plays automatically, but muted, loops--> 
-            <video id = "myvid"   controls poster="Subject.png" preload="auto" autoplay muted loop >
-                 <!--Compatiability-->
-                <source src="Intro.mov" type="video/mp4">
-                <source src="Intro.mov" type="video/ogg">
-            </video>
-             <!--Break Line :D-->
-            <br>
-             <!-- Displays Images each with thier own label-->
-            <img src="stitch.png" alt="Stitch" class="stitch">
-            <img src="Fortnite.png" alt="Fortnite" class="fortnite">
-            <img src="Minecraft.png" alt="Minecraft" class="minecraft">
-             <!--Another class that holds a bunch of text-->
-            <nav class="txtabout">
+     <body>
+        <!--The following is in the wrapper id-->
+        <div id="wrapper"> 
+            <!--Creates a contactbackground divider-->
+            <div id="contactbackground">
+                <!--Here's Some text output-->
+                <h1>Need to get ahold of me? Here's how!</h1>
+                <!--A form element that has the action attribute, sends the user to this page once submitted.-->
+                <form action="submitComplete"  enctype="text/plain" method="post" name="Form">
                 <p>
-                    I'm Emily! <br><br>
-                    I have a dog named Maya<br>
-                    I have 4 siblings<br><br>
-                    I play games like<br>
-                    Phasmophobia, Minecraft,<br>
-                    Raft and Fortnite <br><br>
-                    I collect Stitch Plushies <br><br>
-                    My favourite movie is <br>
-                    The Princess and the Frog <br><br>
-                    My favourite colour is <br>
-                    Deep Sea Blue #123456 <br>
-                    
-
+                    <!--Makes a Label names "Name"-->
+                    <label >Name : </label><br>
+                    <!--Creates a Box that accepts a required input, and displays "Enter your name here" until clicked-->
+                    <input type="text" name="name"  placeholder="Enter your name here" required>
                 </p>
-                
-            </nav>
-        </nav>
-         <!--A Footer that is on every page-->
+                <p>
+                    <!--Makes a Label names "Email"-->
+                    <label >Email : </label><br>
+                    <!--Creates a Box that accepts a required input, and displays "Enter your email here" until clicked-->
+                    <input type="email" name="email" placeholder="Enter your email here" required>
+                </p>
+                <p>
+                    <!--Makes a Label names "Comments"-->
+                    <label >Comments : </label><br>
+                    <!--Creates a Box that accepts a required input, and displays "Enter messagehere" until clicked-->
+                    <textarea name="feedback" rows="8" placeholder="Enter message here"></textarea>
+                </p>
+                <p>
+                    <br>
+                    <!--Creates a Reset button-->
+                    <button type="reset" value="reset">Reset</button>
+                    <!--Creates the submit button-->
+                    <button type="submit" value="submit">Submit</button>
+                    
+                </p>
+                </form>
+             </div>
+            
+        </div> 
+       
+        
         <footer>© 2024 by E.S All Rights Apply  </footer>
     </body>
     
