@@ -1,0 +1,20 @@
+Author: Emily Skinner
+Start Date: 2024-11-05
+End Date: 2024-11-05
+
+References(Things I viewed in order to get a better understanding of the project):
+
+Get started with Bootstrap (didn't end up using, although I added it)
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+Embedded JavaScript templates
+https://www.npmjs.com/package/ejs
+
+Express application generator
+https://expressjs.com/en/starter/generator.html
+
+Developing template engines for Express
+https://expressjs.com/en/advanced/developing-template-engines.html#developing-template-engines-for-express
+
+How to Build A Responsive Navigation Bar Using HTML, CSS, and JavaScript.
+https://medium.com/@ukaohachizoba6/how-to-build-a-responsive-navigation-bar-using-html-css-and-javascript-330ee12ff686
