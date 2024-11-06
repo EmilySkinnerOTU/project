@@ -2,9 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+/* Creates a route to each accessible page on the website*/
 router.get('/', function(req, res, next) {
   res.render('mainPage', { title: 'Home Page' });
 });
+
 router.get('/aboutMe', function(req, res, next) {
   res.render('aboutMe', { title: 'About Me' });
 });

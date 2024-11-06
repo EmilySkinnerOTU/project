@@ -197,6 +197,11 @@ For any other questions about my code feel free to message me!
 }
 /* For Iphones */
 @media (max-device-width: 600px) {
+  .footericon{
+    color:white;
+    width: 25px;
+  }
+
   /*Contact me Section */
   #wrapper form input, textarea{
     font-size: 3vh;
@@ -378,6 +383,10 @@ transform: translateY(100px);
 }
 /* For Ipads */
 @media (max-width: 1024px) and (min-width: 601px) {
+  .footericon{
+    color:white;
+    width: 35px;
+  }
   /* Contact Me Section */
   #wrapper form input, textarea{
     font-size: 3vh;
